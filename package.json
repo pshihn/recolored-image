@@ -1,0 +1,33 @@
+{
+  "name": "recolored-image",
+  "version": "0.1.0",
+  "description": "A custom element and API to colorize an image to a target color",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/recolored-image.d.ts",
+  "scripts": {
+    "build": "rm -rf bin && rm -rf lib && tsc && rollup -c && node worker-wrapper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/recolored-image.git"
+  },
+  "keywords": [
+    "recolor",
+    "colorize",
+    "webcomponent",
+    "image"
+  ],
+  "author": "Preet Shihn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/recolored-image/issues"
+  },
+  "homepage": "https://github.com/pshihn/recolored-image#readme",
+  "devDependencies": {
+    "rollup": "^2.47.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.2.4"
+  }
+}

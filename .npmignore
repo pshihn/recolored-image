@@ -1,0 +1,5 @@
+node_modules
+demo
+bin
+tsconfig.json
+worker-wrapper.js
